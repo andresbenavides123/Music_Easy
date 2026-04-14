@@ -1,0 +1,12 @@
+# Node modules (Lo más pesado)
+node_modules/
+dist/
+.env
+
+# Archivos de Vite/Nest
+.workspace
+build/
+.DS_Store
+
+# Logs
+npm-debug.log*

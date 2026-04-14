@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Reseteo básico para que el diseño ocupe toda la pantalla */
+@layer base {
+  html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* El fondo negro profundo para que el Glassmorphism resalte */
+    background-color: #050505; 
+    color: #f3f4f6;
+    font-family: system-ui, -apple-system, sans-serif;
+    overflow: hidden; /* Evita scrolls raros fuera del main */
+  }
+}
+
+/* Personalización del scrollbar para que se vea Pro */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

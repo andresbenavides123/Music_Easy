@@ -14,7 +14,7 @@ interface Track {
   previewUrl: string;
 }
 
-const API = 'https://musiceasy-production.up.railway.app/api/playlist';
+const API = 'musiceasy-production.up.railway.app';
 
 export default function App() {
   const [search, setSearch] = useState('');

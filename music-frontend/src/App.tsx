@@ -15,7 +15,6 @@ interface Track {
 }
 
 const API = 'https://musiceasy-production.up.railway.app/api/playlist';
-
 export default function App() {
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<Track[]>([]);
